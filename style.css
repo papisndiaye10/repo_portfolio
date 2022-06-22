@@ -28,6 +28,11 @@
     letter-spacing: 1px;
     cursor: pointer;
   }
+  .logo:hover{
+    color: #f9004d;
+    transform: scale(1.1);
+  }
+  
   span{
    color: #f9004d;    
   }
@@ -121,6 +126,10 @@ h4{
     width: 430px;
     border-radius: 50px;
   }
+  .about img:hover{
+    transform: scale(1.1);
+  }
+
 .about-text{
    width: 550px;  
   }
@@ -175,7 +184,7 @@ h4{
 .service{
     background:#101010;
     width: 100%;
-    padding: 100px 0px; 
+    padding: 10px 0px; 
   }
 .title h2{
     color: white;
@@ -281,7 +290,7 @@ h5{
       flex-direction: column;
   }
   .project-me  .img2 button{
-     margin-left: 35%;
+     margin-left: 40%;
      margin-bottom: 5%;
   }
   
